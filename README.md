@@ -1,6 +1,6 @@
 # Test-Spinlock_vs_WaitForSingleObject
 
-- Test Spinlock and WaitForSingleObject responsivity(interval between the time point when an event is set and the time point when processing begins in other threads).
+- Test Spinlock and [WaitForSingleObject](https://docs.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject) interval from event signal to a thread begin.
 
 ## Environment
 
